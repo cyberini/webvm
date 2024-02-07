@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=1100, initial-scale=1.0">
-    <title>WebVM - Linux virtualization in WebAssembly</title>
+    <title>WebVM - Virtualisation Linux avec WebAssembly</title>
 
     <meta name="description" content="Server-less virtual machine, networking included, running browser-side in HTML5/WebAssembly. Code in any programming language inside this Linux terminal.">
     <meta name="keywords" content="WebVM, Virtual Machine, CheerpX, x86 virtualization, WebAssembly, Tailscale, JIT">
@@ -12,11 +12,6 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="WebVM"/>
     <meta property="og:image" content="https://webvm.io/assets/social.png" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@leaningtech" />
-    <meta name="twitter:title" content="WebVM - Linux virtualization in WebAssembly" />
-    <meta name="twitter:description" content="Server-less virtual machine, networking included, running browser-side in HTML5/WebAssembly. Code in any programming language inside this Linux terminal.">
-    <meta name="twitter:image" content="https://webvm.io/assets/social.png" />
 
     <!-- Apple iOS web clip compatibility tags -->
     <meta name="application-name" content="WebVM" />
@@ -60,7 +55,7 @@ __      __   _  __   ____  __
                   <div style="padding-top: 0.7em;font-size: 0.3em; font-weight: 200;vertical-align:center;">
                     <a href="https://leaningtech.com" style="text-decoration: none; height: 100%;" target="_blank">
                       <div style="color: white; font-family: montserrat; font-weight: 400; font-size: large; height: 100%; display: flex; align-items: center;">
-                        <span>Made with &#10084;&#65039; by </span>
+                        <span>Avec avec &#10084;&#65039; par </span>
                         <img src="assets/leaningtech.png" height="40px" style="margin-left: 5px;">
                       </div>
                     </a>
@@ -86,18 +81,6 @@ __      __   _  __   ____  __
 	            <img src="assets/tailscale.svg" height="35px" style="margin-left: 7px;">
 		  </div>
 		</a>
-                <a href="https://discord.gg/yTNZgySKGa" style="text-decoration: none; height: 100%;" target="_blank">
-                  <div style="color: white; font-family: montserrat; font-weight: 400; font-size: large; height: 100%; display: flex; align-items: center;">
-                    <span>Join Discord </span>
-                    <img src="assets/discord-mark-blue.svg" height="35px" style="margin-left: 7px;">
-                  </div>
-                </a>
-                <a href="https://github.com/leaningtech/webvm/issues" style="text-decoration: none; height: 100%;" target="_blank">
-                  <div style="color: white; font-family: montserrat; font-weight: 400; font-size: large; height: 100%; display: flex; align-items: center;">
-                    <span>GitHub Issues </span>
-                    <img src="assets/github-mark-white.svg" height="35px" style="margin-left: 5px;">
-                  </div>
-                </a>
               </div>
             </div>
           </div>
@@ -135,22 +118,12 @@ __      __   _  __   ____  __
 			var text = [
 				"+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+",
 				"|                                                                             |",
-				"| WebVM is a server-less virtual Linux environment running fully client-side  |",
-				"| in HTML5/WebAssembly.                                                       |",
-				"|                                                                             |",
-				"| WebVM is powered by the CheerpX virtualization engine, which enables safe,  |",
-				"| sandboxed client-side execution of x86 binaries on any browser.             |",
-				"|                                                                             |",
-				"| CheerpX includes an x86-to-WebAssembly JIT compiler, a virtual block-based  |",
-				"| file system, and a Linux syscall emulator.                                  |",
-				"|                                                                             |",
-				"| [NEW!] Your own WebVM with custom images via Dockerfile:                    |",
-				"|                                                                             |",
-				"| " + underline + "https://leaningtech.com/mini-webvm-your-linux-box-from-dockerfile-via-wasm" + normal +"  |",
+				"| WebVM est un environnement Linux virtuel fonctionnant du côté client avec   |",
+				"| HTML5/WebAssembly.                                                          |",
 				"|                                                                             |",
 				"+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+",
 				"",
-				"   Welcome to WebVM. If unsure, try these examples:",
+				"   Essayez ces exemples :",
 				"",
 				"     python3 examples/python3/fibonacci.py ",
 				"     gcc -o helloworld examples/c/helloworld.c && ./helloworld",
@@ -350,15 +323,6 @@ __      __   _  __   ____  __
 	}
 	loadCX();
     </script>
-<!-- Google tag (gtag.js) -->
-<script defer src="https://www.googletagmanager.com/gtag/js?id=G-818T3Y0PEY"></script>
-<script defer>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-818T3Y0PEY');
-</script>
   </body>
 </html>
 
